@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDAS Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/cdas.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Dashboard Sidebar -->
+    <div class="dashboard">
+        <div class="dashboard-header">
+            <img src="img/cdas.png" alt="Logo" class="dashboard-logo">
+            <h1 class="dashboard-title">CDAS</h1>
+        </div>
+        <ul class="dashboard-menu">
+            <li><a href="#statistics">Statistics</a></li>
+            <li><a href="#technical-affairs">Technical Affairs</a></li>
+            <li><a href="#vdsa">VDSA</a></li>
+            <li><a href="#program-head">Program Head</a></li>
+            <li><a href="#dean-of-college">Dean of College</a></li>
+            <li><a href="#charts">Charts</a></li>
+            <li><a href="#videos">Videos</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search..." id="searchInput">
+                    <span class="search-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(1, 41, 112)" viewBox="0 0 20 20">
+                            <circle cx="8" cy="8" r="6" stroke="rgb(1, 41, 112)" stroke-width="2" fill="none"/>
+                            <line x1="12" y1="12" x2="16" y2="16" stroke="rgb(1, 41, 112)" stroke-width="2"/>
+                        </svg>
+                    </span>
+                </div>                                                             
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                    <!-- Icons -->
+                    <div class="icons">
+                        <span class="icon">
+                            <img src="img/bell.avif" alt="Notifications" class="icon-img">
+                        </span>
+                        <span class="icon">
+                            <img src="img/messages2.jpg" alt="Messages" class="icon-img">
+                        </span>
+                    </div>                    
+
+                <div class="profile">
+                    <img src="img/vert.jpg" alt="Profile Picture" class="profile-pic">
+                    <span class="profile-name">Joe Vert Matienzo</span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero parallax" id="home" data-speed="0.5">
+            <div class="hero-content">
+                <h1>Built by <span>Experience</span></h1>
+                <p>Bringing next-generation web solutions for unique, high-performing online experiences.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Portfolio</a>
+                    <a href="#about" class="btn secondary">Our Approach</a>
+                    <a href="#contact" class="btn primary">Start a Project</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section class="about fade-in parallax" id="about" data-speed="0.3">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I am a dedicated web developer with expertise in building visually stunning, functional websites. My passion for design and technology drives me to create engaging user experiences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects fade-in" id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>CDAS Website</h3>
+                        <p>I created the CDAS Website to practice and enhance my skills in front-end development. This project allowed me to deepen my knowledge of HTML, CSS, and JavaScript while preparing for future opportunities in the IT field. Building this website reflects my passion for learning and my aspiration to become a skilled IT professional.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>COLLEGE DEPARTMENT ATTENDANCE SYSTEM WITH SMARTPHONE AND TABLET INTEGRATION USING MAC ADDRESS FILTERING (CDAS)</h3>
+                        <p>As a 4th-year BSIT student at Don Bosco College - Canlubang, I had the privilege of collaborating with my classmates to develop our capstone project: "College Department Attendance System with Smartphone and Tablet Integration Using MAC Address Filtering (CDAS)." We built this system using HTML, CSS, JavaScript, and PHP, focusing on creating a practical and efficient solution for managing attendance. This experience allowed me to enhance my technical skills, teamwork, and problem-solving abilities.</p>
+                    </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <div class="statistics" id="statistics">
+            <h2>Statistics</h2>
+            <div class="stat-item">
+                <div class="stat-label">Attendance Rate</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+                <span class="stat-percentage">85%</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">System Uptime</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+                <span class="stat-percentage">95%</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Task Completion</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+                <span class="stat-percentage">70%</span>
+            </div>
+        </div>
+        
+        <!-- Technical Affairs Section -->
+        <section class="technical-affairs" id="technical-affairs">
+            <div class="container">
+                <h2>Technical Affairs</h2>
+                <p>Here you can find all the updates and developments regarding the technical side of the department.</p>
+                <ul>
+                    <li>Update 1: System Maintenance</li>
+                    <li>Update 2: New Software Implementation</li>
+                    <li>Update 3: Network Infrastructure Upgrades</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- VDSA Section -->
+        <section class="vdsa" id="vdsa">
+            <div class="container">
+                <h2>VDSA</h2>
+                <p>The VDSA department is dedicated to fostering academic and extracurricular growth among students.</p>
+                <ul>
+                    <li>Event 1: Virtual Development Seminar</li>
+                    <li>Event 2: Career Guidance Workshop</li>
+                    <li>Event 3: Student Leadership Training</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Program Head Section -->
+        <section class="program-head" id="program-head">
+            <div class="container">
+                <h2>Program Head</h2>
+                <p>The Program Head is responsible for overseeing the academic curriculum and student progression within the department.</p>
+                <ul>
+                    <li>Initiative 1: Curriculum Review</li>
+                    <li>Initiative 2: Academic Workshops</li>
+                    <li>Initiative 3: Internship Programs</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Dean of College Section -->
+        <section class="dean-of-college" id="dean-of-college">
+            <div class="container">
+                <h2>Dean of College</h2>
+                <p>The Dean of the College is tasked with managing the faculty, overseeing student affairs, and ensuring the quality of education.</p>
+                <ul>
+                    <li>Announcement 1: New Faculty Appointments</li>
+                    <li>Announcement 2: College-Wide Research Projects</li>
+                    <li>Announcement 3: Upcoming Graduation Ceremony</li>
+                </ul>
+            </div>
+        </section>
+        
+         <!-- Charts Section -->
+         <section class="charts" id="charts">
+            <div class="container">
+                <h2>Charts</h2>
+                <p>Visualize key metrics and data insights below:</p>
+                
+                <!-- Bar Chart -->
+                <div class="chart-container">
+                    <h3>Bar Chart</h3>
+                    <canvas id="barChart" width="700" height="350"></canvas>
+                </div>
+        
+                <!-- Pie Chart -->
+                <div class="chart-container">
+                    <h3>Pie Chart</h3>
+                    <canvas id="pieChart" width="700" height="350"></canvas>
+                </div>
+            </div>
+        </section>                         
+
+                <!-- Videos -->
+                <section class="videos" id="videos">
+                    <div class="container">
+                        <h2>Videos</h2>
+                        <div class="video-grid">
+                            <div class="video-item">
+                                <iframe 
+                                    width="560" 
+                                    height="315" 
+                                    src="videos/diana.mp4" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="video-item">
+                                <iframe 
+                                    width="560" 
+                                    height="315" 
+                                    src="videos/diana2.mp4" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <!-- Contact Section -->
+        <section class="contact fade-in" id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+                <p>Email: <a href="mailto:jvcmatienzo@donbosco.edu.ph">jvcmatienzo@donbosco.edu.ph</a></p>
+                <p>Phone: N/A</p>
+            </div>
+        </section>      
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Joe Vert Matienzo. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
